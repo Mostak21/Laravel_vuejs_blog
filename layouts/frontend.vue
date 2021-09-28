@@ -1,7 +1,9 @@
 <template lang="">
    <v-app >
   
-   <navbar></navbar>
+   <navbar>
+     
+   </navbar>
   <!-- Sizes your content based upon application components -->
   <v-main>
 

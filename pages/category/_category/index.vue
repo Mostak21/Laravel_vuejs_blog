@@ -1,7 +1,7 @@
 <template lang="">
   <div>
    <li v-for="post in posts" :key="post.id">
-	  <nuxt-link :to="{name: 'post-id', params: { id:post.id } }">
+	  <nuxt-link :to="{name: 'post-post', params: { post:post.id } }">
 			<v-card class="event-card">
 				<v-layout row>
 					<img src="https://images.unsplash.com/photo-1467139701929-18c0d27a7516?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=874439394c29dfb8f4b5a794a51a52f2&auto=format&fit=crop&w=750&q=80">
