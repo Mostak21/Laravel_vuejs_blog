@@ -4,7 +4,7 @@
     <!-- -->
   </v-navigation-drawer>
 
-  <v-app-bar  class="mx-auto" app>
+  <v-app-bar  class="mx-auto" color="#03A9F4" app>
     <span class="hidden-sm-and-up">
         <v-app-bar-nav-icon  @click.stop="sidebar = !sidebar"></v-app-bar-nav-icon> 
       </span>

@@ -178,7 +178,7 @@ export default {
       this.$axios
         .$get("/api/category/" + id)
         .then(res => {
-          this.subcategory = res;
+          this.subcategory = res.subcategory;
         })
         .catch(err => {
           console.error(err);

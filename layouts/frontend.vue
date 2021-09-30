@@ -8,7 +8,7 @@
   <v-main>
 
     <!-- Provides the application the proper gutter -->
-    <v-container>
+    <v-container fluid >
 <Nuxt/>
 
       <!-- If using vue-router -->
